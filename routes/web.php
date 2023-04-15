@@ -28,3 +28,12 @@ Route::get('/contact', function(){
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
+Route::middleware(['auth'])->group(
+    function () {
+        Route::get('/courses', function ()
+        {
+            return view('courses');
+        })->name('courses');
+    }
+);
