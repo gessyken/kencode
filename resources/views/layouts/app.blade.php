@@ -84,21 +84,21 @@
                     </div>
                     <div class="col-xs-10 text-right menu-1">
                         <ul>
-                            <li class="active"><a href=href={{ route('home') }}>Acceuil</a></li>
-                            <li><a href="courses.html">Cours</a></li>
-                            <li><a href="teacher.html">Enseignants</a></li>
-                            <li><a href="about.html">A propos</a></li>
-                            <li><a href="pricing.html">Prix</a></li>
+                            <li class="active"><a href={{ route('home') }}>Acceuil</a></li>
+                            <li><a href={{ route('courses') }}>Cours</a></li>
+                            <li><a href={{ route('teachers') }}>Enseignants</a></li>
+                            <li><a href={{ route('about') }}>A propos</a></li>
+                            <li><a href={{ route('pricing') }}>Prix</a></li>
                             <li class="has-dropdown">
                                 <a href="blog.html">Blog</a>
                                 <ul class="dropdown">
-                                    <li><a href="#">Web Design</a></li>
-                                    <li><a href="#">eCommerce</a></li>
-                                    <li><a href="#">Branding</a></li>
-                                    <li><a href="#">API</a></li>
+                                    <li><a href="#">Gessy Ken</a></li>
+                                    <li><a href="#">Ferry Nde</a></li>
+                                    <li><a href="#">Sergio Chebeu</a></li>
+                                    <li><a href="#">Tony Biaka</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contacts</a></li>
+                            <li><a href={{ route('contact') }}>Contacts</a></li>
                             {{-- <li class="btn-cta"><a href="#"><span>Login</span></a></li> --}}
                             <li class="btn-cta"><a href='#'><span>Fermer ma session</span></a></li>
                         </ul>
@@ -116,21 +116,21 @@
         <div class="container">
             <div class="row row-pb-md">
                 <div class="col-md-3 fh5co-widget">
-                    <h3>About Education</h3>
+                    <h3>{{ config('app.name') }}</h3>
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                 </div>
                 <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
                     <h3>Learning</h3>
                     <ul class="fh5co-footer-links">
-                        <li><a href="#">Course</a></li>
+                        <li><a href={{ route('courses') }}>Course</a></li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href={{ route('contact') }}>Contact</a></li>
                         <li><a href="#">Terms</a></li>
                         <li><a href="#">Meetups</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+           {{--      <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
                     <h3>Learn &amp; Grow</h3>
                     <ul class="fh5co-footer-links">
                         <li><a href="#">Blog</a></li>
@@ -160,14 +160,14 @@
                         <li><a href="#">Advertise</a></li>
                         <li><a href="#">API</a></li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
 
             <div class="row copyright">
                 <div class="col-md-12 text-center">
                     <p>
-                        <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-                        <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> &amp; <a href="https://www.pexels.com/" target="_blank">Pexels</a></small>
+                        <small class="block">&copy; {{ date('Y') }} GESSY AUREL KENNE. Tous droits reserves.</small> 
+                        {{-- <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small> --}}
                     </p>
                 </div>
             </div>
@@ -223,8 +223,3 @@
     </script>
     </body>
 </html>   
-    
-
-<form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-    @csrf
-</form> 

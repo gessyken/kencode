@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Teacher;
+use App\Models\Course;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +35,18 @@ Route::middleware(['auth'])->group(
     function () {
         Route::get('/courses', function ()
         {
-            return view('courses');
+            $courses = Course::all();
+            return view('courses', compact('courses'));
         })->name('courses');
-    }
-);
+
+        Route::get('/teachers', function ()
+        {
+            $teachers = Teacher::all();
+            return view('teachers', compact('teachers'));
+        })->name('teachers');
+
+        Route::get('/pricing', function ()
+        {
+            return view('pricing');
+        })->name('pricing');
+});

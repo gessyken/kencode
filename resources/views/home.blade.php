@@ -377,7 +377,7 @@
                             </div>
                      <div class="pricing__price">
                         <span class="pricing__anim pricing__anim--1">
-                                <span class="pricing__currency">XAF</span>50.000
+                                <span class="pricing__currency">XAF</span>5000
                         </span>
                         <span class="pricing__anim pricing__anim--2">
                                 <span class="pricing__period">par an</span>
@@ -406,7 +406,7 @@
                             </div>
                      <div class="pricing__price">
                         <span class="pricing__anim pricing__anim--1">
-                                <span class="pricing__currency">XAF</span>100.000
+                                <span class="pricing__currency">XAF</span>10.0000
                         </span>
                         <span class="pricing__anim pricing__anim--2">
                                 <span class="pricing__period">par an</span>
