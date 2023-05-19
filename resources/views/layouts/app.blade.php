@@ -64,7 +64,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-right">
-                        <p class="site">gessyken@gmail.com.com</p>
+                        <p class="site">Mail: <a href="mailto:gessyken@gmail.com">gessyken@gmail.com</a></p>
                         <p class="num">Appel: +237 696 767 009</p>
                         <ul class="fh5co-social">
                             <li><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -82,25 +82,19 @@
                     <div class="col-xs-6">
                         <div id="fh5co-logo"><a href={{ route('home') }}><i class="icon-study"></i> {{ config('app.name') }}<span>.</span></a></div>
                     </div>
-                    <div class="col-xs-10 text-right menu-1">
+                    <div class="col-xs-12 text-right menu-1">
                         <ul>
                             <li class="active"><a href={{ route('home') }}>Acceuil</a></li>
                             <li><a href={{ route('courses') }}>Cours</a></li>
                             <li><a href={{ route('teachers') }}>Enseignants</a></li>
                             <li><a href={{ route('about') }}>A propos</a></li>
                             <li><a href={{ route('pricing') }}>Prix</a></li>
-                            <li class="has-dropdown">
-                                <a href="blog.html">Blog</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Gessy Ken</a></li>
-                                    <li><a href="#">Ferry Nde</a></li>
-                                    <li><a href="#">Sergio Chebeu</a></li>
-                                    <li><a href="#">Tony Biaka</a></li>
-                                </ul>
-                            </li>
                             <li><a href={{ route('contact') }}>Contacts</a></li>
                             {{-- <li class="btn-cta"><a href="#"><span>Login</span></a></li> --}}
-                            <li class="btn-cta"><a href='#'><span>Fermer ma session</span></a></li>
+                            <form action="{{ route('logout') }}"> 
+                                    @csrf
+                                    <button class="btn btn-danger" type="submit">Fermer ma session</button> 
+                                </form>
                         </ul>
                     </div>
                 </div>

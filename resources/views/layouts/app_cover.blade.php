@@ -14,6 +14,11 @@
 			text-decoration: none;
 			color:#fff;
 		}
+		body{
+			background-image: url('/images/school.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
 .errors
 {
 	color:red;

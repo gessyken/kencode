@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card bg-dark text-white border-white border-3">
+            <div class="border p-4 rounded rounded-5 border-3">
                 <div class="card-header border-white"><h3>{{ __('Inscription') }}</h3></div>
 
                 <div class="card-body">
@@ -65,7 +65,7 @@
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn bg-white">
                                     {{ __("S'inscrire") }}
                                 </button>
                             </div>

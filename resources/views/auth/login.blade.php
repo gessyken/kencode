@@ -6,8 +6,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <div class="card bg-dark text-white border-white border-3">
-                <div class="card-header border-white"><h4>{{ __('Connexion') }}</h4></div>
+            <div class="border p-4 rounded rounded-5 border-3">
+                <div class="card-header p-3 border-white"><h4>{{ __('Connexion') }}</h4></div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -55,7 +55,7 @@
 
                         <div class="row mb-0">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn bg-white">
                                     {{ __('Se connecter') }}
                                 </button>
                                 <hr>

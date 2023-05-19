@@ -4,7 +4,7 @@
     <aside id="fh5co-hero">
         <div class="flexslider">
             <ul class="slides">
-            <li style="background-image: url(images/peace.jpg);">
+            <li style="background-image: url(images/school.jpg);">
                 <div class="overlay-gradient"></div>
                 <div class="container">
                     <div class="row">
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </li>
-            <li style="background-image: url(images/img_bg_2.jpg);">
+            <li style="background-image: url(images/school.jpg);">
                 <div class="overlay-gradient"></div>
                 <div class="container">
                     <div class="row">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </li>
-            <li style="background-image: url(images/img_bg_3.jpg);">
+            <li style="background-image: url(images/school.jpg);">
                 <div class="overlay-gradient"></div>
                 <div class="container">
                     <div class="row">
@@ -62,29 +62,29 @@
                 <div class="col-md-3 col-sm-6 text-center animate-box">
                     <div class="services">
                         <span class="icon">
-                            <i class="icon-shop"></i>
+                            <i class="icon-link"></i>
                         </span>
                         <div class="desc">
                             <h3><a href="#">Les bases de l'informatique</a></h3>
-                            <p>Dans cette formation, on vous initie à l'informatique, en abordant les différents domaines et leurs débouchés.</p>
+                            <p>Dans cette formation, on vous initie à l'informatique, en abordant les ...</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center animate-box">
                     <div class="services">
                         <span class="icon">
-                            <i class="icon-heart4"></i>
+                            <i class="icon-star3"></i>
                         </span>
                         <div class="desc">
                             <h3><a href="#">Initiation a l'algorithmique</a></h3>
-                            <p>Dans cette formation, on vous initie à l'algorithmique, car c'est l'une des cles necessaires pour ouvrir la porte de la programmation.</p>
+                            <p>Dans cette formation, on vous initie à l'algorithmique, car c'est l'une des  ... </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center animate-box">
                     <div class="services">
                         <span class="icon">
-                            <i class="icon-banknote"></i>
+                            <i class="icon-flash"></i>
                         </span>
                         <div class="desc">
                             <h3><a href="#">La programmation en C</a></h3>
@@ -106,7 +106,7 @@
                 <div class="col-md-3 col-sm-6 text-center animate-box">
                     <div class="services">
                         <span class="icon">
-                            <i class="icon-photo"></i>
+                            <i class="icon-world"></i>
                         </span>
                         <div class="desc">
                             <h3><a href="#">La programmation web</a></h3>
@@ -120,7 +120,7 @@
                             <i class="icon-home-outline"></i>
                         </span>
                         <div class="desc">
-                            <h3><a href="#">Real Estate</a></h3>
+                            <h3><a href="#">#...#</a></h3>
                             <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                             <i class="icon-bubble3"></i>
                         </span>
                         <div class="desc">
-                            <h3><a href="#">Language</a></h3>
+                            <h3><a href="#">#...#</a></h3>
                             <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                             <i class="icon-world"></i>
                         </span>
                         <div class="desc">
-                            <h3><a href="#">Web &amp; Programming</a></h3>
+                            <h3><a href="#">#...#</a></h3>
                             <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
         </div>
     </div>
 
-    <div id="fh5co-counter" class="fh5co-counters" style="background-image: url(images/img_bg_4.jpg);" data-stellar-background-ratio="0.5">
+    <div id="fh5co-counter" class="fh5co-counters" style="background-image: url(images/school.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -234,7 +234,9 @@
                             </div>
                             <div class="item">
                                 <div class="testimony-slide active text-center">
-                                    <div class="user" style="background-image: url(images/person2.jpg);"></div>
+                                    <div class="user h1" style="background-image: url(images/person2.jpg);">
+                                        <i class="icon-user"></i>
+                                    </div>
                                     <span>JOSUE-FERRY NDE<br><small>Etudiant en systemes reseaux informatiques</small></span>
                                     <blockquote>
                                         <p>&ldquo;Ayant la passion d'apprendre et de faire apprendre, j'ai concu cette plateforme qui a pour objectif de vous faire aimer la prorammation autant que moi donc je peux vous assurer que mes differents cours seront le fruit de beaucoup d'amour et de passion.&rdquo;</p>
